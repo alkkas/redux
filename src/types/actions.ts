@@ -16,10 +16,7 @@
  * @template T the type of the action's `type` tag.
  */
 export interface Action<T = any> {
-  type: T
-
-
-  
+  type: T 
 }
 
 /**
